@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+    
+  
+}
+@section featured{
+ <script type="text/javascript">
+     $('#slider').cycle({
+         fx:  'scrollRight', 
+         next:   '#right',
+         speed: 300,
+         timeout: 3000,
+         next: '#s3',
+         pause: 1
+     });
+</script>
+
+
+   
+        <div id="slider">
+            <a class="linkSliderOne">
+                <h2>Welcome to Ima-G-Nation</h2>
+            </a>
+
+            <a class="linkSliderTwo">
+
+                <h2>Welcome to Ima-G-Nation fdgsfdgsdf</h2>
+            </a>
+            <a class="linkSliderThree">
+
+                <h2>Welcome to Ima-G-Nation fdgsfdgsdf</h2>
+            </a>
+    </div>
+
+    }
